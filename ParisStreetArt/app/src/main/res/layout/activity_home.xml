@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="fr.parisstreetart.com.parisstreetart.Home">
+
+    <Button
+        android:id="@+id/btn_graffitislocation_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="graffitisLocation"
+        android:text="@string/btn_graffitislocation_txt" />
+
+    <Button
+        android:id="@+id/btn_graffitislistview_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="graffitisListView"
+        android:text="@string/btn_graffitislistview_txt" />
+
+</LinearLayout>

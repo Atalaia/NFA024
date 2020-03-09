@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/main_choix_spin"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/attente_txt"
+        android:id="@+id/main_title_tv"
+        android:layout_below="@+id/main_choix_spin"
+        android:textSize="@dimen/main_title_size_btn"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_go_btn_text"
+        android:layout_alignParentBottom="true"
+        android:onClick="action"
+        android:id="@+id/main_go_btn"
+        android:enabled="false"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/attente_txt"
+        android:id="@+id/main_my_tv"
+        android:layout_below="@+id/main_title_tv"
+        android:layout_above="@id/main_go_btn"
+        />
+
+
+</RelativeLayout>
+
+
+

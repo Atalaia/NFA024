@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CarnetAdresses</string>
+    <string name="app_name_creation">Contact (Creation dun nouveau contact)</string>
+    <string name="main_creer_txt">Créer une personne</string>
+    <string name="main_all_txt">Voir tout le monde</string>
+    <string name="fonctionnalite_creer">Créer une nouvelle entrée dans la base de contacts</string>
+    <string name="fonctionnalite_tous">Lister lensemble des personnes dans la base de contacts</string>
+
+    <string name="hint_invite_prenom_txt">Saisir prenom</string>
+    <string name="hint_invite_nom_txt">Saisir nom</string>
+    <string name="hint_invite_email_txt">Saisir email</string>
+    <string name="hint_invite_telephone_txt">Saisir telephone</string>
+    <string name="btn_enregistrer_txt">Enregistrer</string>
+
+    <string name="toast_enregistrer_txt">Enregistrement du nouveau contact</string>
+
+
+</resources>

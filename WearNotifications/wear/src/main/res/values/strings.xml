@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WearNotifications</string>
+
+    <string name="hello">Bonjour !</string>
+    <string name="title">Voici une notification !</string>
+    <string name="notification_posted">Notification posté</string>
+</resources>

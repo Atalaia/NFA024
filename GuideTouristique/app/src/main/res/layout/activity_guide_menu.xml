@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.guidetouristique.fr.guidetouristique.GuideMenu">
+
+    <Button
+        android:id="@+id/button_maPosition_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="maPosition"
+        android:text="@string/btn_maposition_txt" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_monprofil_txt"
+        android:onClick="monProfil"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_attractions_txt"
+        android:onClick="voirAttractions"
+        />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculatrice</string>
+    <string name="main_entree1_et">Veuillez saisir un nombre</string>
+    <string name="main_entree2_et">Veuillez saisir un deuxième nombre</string>
+    <string name="main_plus_button_text">+</string>
+    <string name="main_moins_button_text">-</string>
+    <string name="main_mult_button_text">x</string>
+    <string name="main_div_button_text">/</string>
+    <string name="reset_button_et">Reset</string>
+
+</resources>

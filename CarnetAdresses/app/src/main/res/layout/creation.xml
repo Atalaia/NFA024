@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_invite_nom_txt"
+        android:text=""
+        android:id="@+id/creation_nom_et"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_invite_prenom_txt"
+        android:text=""
+        android:id="@+id/creation_prenom_et"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_invite_email_txt"
+        android:text=""
+        android:id="@+id/creation_email_et"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_invite_telephone_txt"
+        android:text=""
+        android:id="@+id/creation_telephone_et"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/btn_enregistrer_txt"
+        android:onClick="enregistrer"
+        android:id="@+id/main_enregistrer_btn"
+        />
+
+</LinearLayout>
